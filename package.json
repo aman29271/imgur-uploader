@@ -1,0 +1,11 @@
+{
+  "name": "imgur-image-uploader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aman Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
