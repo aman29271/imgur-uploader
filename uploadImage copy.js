@@ -14,7 +14,7 @@ fs.readFile(fileName, "utf8", (err, data) => {
 function uploadImage(fileName, binaryImageFile) {
   var options = {
     method: "POST",
-    uri: "api.imgur.com/3/upload",
+    hostname: "api.imgur.com",
     path: "/3/upload",
     headers: {
       Authorization: `Client-ID ${process.env.clientId}`
